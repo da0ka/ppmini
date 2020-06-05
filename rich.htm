@@ -9,24 +9,24 @@ body,html{background:#212;color:snow;margin:0;padding:0;height:100%;overflow:hid
 .dpass{background:#212}
 a{color:snow}a:link{color:#ccf;font-weight:700}a:hover{color:#ffc}
 p{margin:0 1px 1px}
-input{background:#848;border:1px solid #c6c;border-radius:4px;color:snow;cursor:pointer;text-shadow:1px 1px #000}
+input,label{background:#848;border:1px solid #c6c;border-radius:4px;color:snow;cursor:pointer;text-shadow:1px 1px #000}
 input[type=button]{border:0}
+#f{display:none}
 </style></head><body>
-<div class=h>mem<input value=5 size=2 id=m> order<input value=2 size=2 id=o>+2 <input type=checkbox id=p>unpack <input type=file id=f> <input type=button value=dump id=x></div>
+<div class=h>mem<input value=5 size=2 id=m> order<input value=2 size=2 id=o>+2 <input type=checkbox id=p>unpack <label><input type=file id=f>LOAD</label> <input type=button value=dump id=x></div>
 <div id=b></div>
 <div class=f><input value=0 size=1 id=pb></div><script>
-var addEvent=document.addEventListener?function(o,n,fn){o.addEventListener(n,fn,!1)}:function(o,n,fn){o.attachEvent('on'+n,fn)};
 (function(){
 	var T=[],hit="\0-TO-msg";
-	window.setTimeout0=function(fn){
+	window.wait0=function(fn){
 		T[T.length]=fn;
 		window.postMessage(hit,"*")
-	}
-	addEvent(window,"message",function(e){
+	};
+	window.onmessage=function(e){
 		if(e.source==window&&e.data==hit)
 			e.stopPropagation(),
 			T[0]&&T.shift()()
-	})
+	}
 })();
 x.onclick=function(){confirm("remove?")?f.value=b.innerHTML=null:0};
 b.onclick=function(e){e=e.target||e.srcElement;e.nodeName=="INPUT"&&e.type=="button"&&confirm("remove?")?e.parentNode.outerHTML="":0};
@@ -86,7 +86,7 @@ function PPM(A,k,m,g,fn1,fn2){
 					C=H[h]=[],C.c=0
 				}if(255<(c.c+=2))for(;i;)C[--i].c>>=1;
 			for(h=s=s.slice(~k)+S(b);u;C[C.length]={c:0,s:b})C=E[u++]
-		}setTimeout0(P)
-	}setTimeout0(P)
+		}wait0(P)
+	}wait0(P)
 }
 </script></body></html>
