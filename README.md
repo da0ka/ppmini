@@ -13,7 +13,7 @@ Its GUI is rich. Its code is not minified. But size is over than 3KB.
 * order[number] - It is the same as f2f-tiny.htm of 'o'.
 * unpack -------- if checked it then unpack file else pack file.
 ## ppmini.js
-Its file includes a function 'S' only. S does encoding/decoding. no need for above all html.
+Its file includes a function 'S' only. S does encoding/decoding. its size is 699bytes. no need for above all html.
 ### usage
 S(S,k,d)
 * @S ------ Array / Uint8Array.
