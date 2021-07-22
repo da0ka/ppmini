@@ -17,6 +17,6 @@ Its file includes a function 'S' only. S does encoding/decoding. its size is 699
 ### usage
 S(S,k,d)
 * @S ------ Array / Uint8Array.
-* @k ------ context order. range is 0-255. empty means 0. best balanced value is 2.
+* @k ------ context order. range is 0-255. Not a number means 0. best balanced value is 2.
 * @d ------ false means encoding. true means decoding
 * return -- if @d is false, return packed @S else unpacked @S.
