@@ -1,5 +1,5 @@
 # ppmini
-This program is written in JavaScript + HTML. Its size is smaller than 930bytes! compression raito is usually better than gzip(especially text file).
+This program is file (de)compresseor written in JavaScript + HTML. Its size is smaller than 930bytes! compression raito is usually better than gzip(especially text file).
 ## f2f-tiny.htm
 smallest implementation. Its code is minified. GUI is very simple. and description is too small.
 ### usage
