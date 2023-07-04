@@ -6,6 +6,8 @@ smallest implementation. Its code is minified. GUI is very simple. and descripti
 * o[number] -- input context order. range is 0-255. empty means 0. best balanced value is 2.
 * dec -------- if checked it then unpack file else pack file.
 * DL --------- if process is done, click here to download file.
+## f2f-tiny2.htm
+almost the same as f2f-tiny.htm. it uses carryless range coder.
 ## rich.htm
 Its GUI is rich. Its code is not minified. But size is over than 3KB.
 ### usage
