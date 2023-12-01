@@ -15,7 +15,7 @@ Its GUI is rich. Its code is not minified. But size is over than 3KB.
 * order[number] - It is the same as f2f-tiny.htm of 'o'.
 * unpack -------- if checked it then unpack file else pack file.
 ## 10items.htm
-Included improved versions(Information Inheritance, Secondary Escape Estimation). It outputs program code and its demo. You can down load programs from bottom button. usage is the almost the same as f2f-tiny.htm.
+Included improved versions(Information Inheritance, Secondary Escape Estimation). It outputs program code and its demo. You can download programs from bottom button. usage is the almost the same as f2f-tiny.htm.
 Difference is maximum order. program No8 and No10 is 31, others are 7.
 
 ## ppmini.js
