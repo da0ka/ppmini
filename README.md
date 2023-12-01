@@ -25,4 +25,4 @@ _(k,n,f)
 * @k ------ Array / Uint8Array.
 * @n ------ context order. range is 0-7. Not a number means 0. best balanced value is 2.
 * @f ------ false means encoding. true means decoding
-* return -- if @d is false, return packed @S else unpacked @S.
+* return -- if @f is false, return packed @k else unpacked @k.
