@@ -19,7 +19,7 @@ Included improved versions(Information Inheritance, Secondary Escape Estimation)
 Difference is maximum order. program No8 and No10 is 31, others are 7.
 
 ## ppmini.js
-Its file includes a function 'S' only. S does encoding/decoding. its size is 699bytes. no need for above all html.
+Its file includes a function '_' only. _ does encoding/decoding. its size is 614 bytes. no need for above all html.
 ### usage
 _(k,n,f)
 * @k ------ Array / Uint8Array.
