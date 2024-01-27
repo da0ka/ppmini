@@ -17,7 +17,8 @@ Its GUI is rich. Its code is not minified. But size is over than 3KB.
 ## 10items.htm
 Included improved versions(Information Inheritance, Secondary Escape Estimation). It outputs program code and its demo. You can download programs from bottom button. usage is the almost the same as f2f-tiny.htm.
 Difference is maximum order. program No8 and No10 is 31, others are 7.
-
+## 10items-2.htm
+almost the same as above. difference is maximum order(255).
 ## ppmini.js
 Its file includes a function '_' only. _ does encoding/decoding. its size is 614 bytes. no need for above all html.
 ### usage
