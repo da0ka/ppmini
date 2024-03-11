@@ -19,11 +19,19 @@ Included improved versions(Information Inheritance, Secondary Escape Estimation)
 Difference is maximum order. program No8 and No10 is 31, others are 7.
 ## 10items-2.htm
 almost the same as above. difference is maximum order(255).
+## 10items-3.htm
+includes smaller codes.
 ## ppmini.js
-Its file includes a function '_' only. _ does encoding/decoding. its size is 614 bytes. no need for above all html.
+Its file includes a function '_' only. _ does encoding/decoding. its size is 609 bytes. no need for above all html.
 ### usage
 _(k,n,f)
 * @k ------ Array / Uint8Array.
 * @n ------ context order. range is 0-7. Not a number means 0. best balanced value is 2.
 * @f ------ false means encoding. true means decoding
 * return -- if @f is false, return packed @k else unpacked @k.
+```
+//compress
+var c=_([109,105,115,115,105,115,115,105,112,112,105],0),
+//decompress
+d=_(c,0,!0)
+```
