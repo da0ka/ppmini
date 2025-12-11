@@ -28,7 +28,7 @@ _(i,j,k)
 * @i ------ Array / Uint8Array.
 * @j ------ context order. range is 0-7. Not a number means 0. best balanced value is 2.
 * @k ------ false means encoding. true means decoding
-* return -- if @f is false, return packed @k else unpacked @k.
+* return -- if @k is false, return packed @i else unpacked @i.
 ```
 //compress
 var c=_([109,105,115,115,105,115,115,105,112,112,105],0),
